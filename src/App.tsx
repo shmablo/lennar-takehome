@@ -1,5 +1,6 @@
 import Callout from "./components/ui/callout/Callout"
 import Header from "./components/ui/header/Header"
+import SignupForm from "./components/ui/signupForm/SignUpForm"
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <main>
       <Header />
       <Callout />
+      <SignupForm />
     </main>
   )
 }

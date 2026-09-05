@@ -1,0 +1,86 @@
+.form {
+  width: 100%;
+  max-width: 576px;
+}
+
+.fields {
+  display: flex;
+  width: 100%;
+  gap: 12px;
+}
+
+.input {
+  flex: 1;
+  width: 425px;
+  height: 48px;
+  padding: 12px 16px;
+  border: 0;
+  border-radius: 6px;
+  outline: none;
+  background: var(--color-white);
+  color: var(--color-gray-900);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.input::placeholder {
+  color: var(--color-gray-500);
+}
+
+.input:focus-visible {
+  outline: 3px solid var(--color-indigo-400);
+  outline-offset: 2px;
+}
+
+.input[aria-invalid='true'] {
+  outline: 2px solid #ef4444;
+}
+
+.submitButton {
+  width: 139px;
+}
+
+.helperText,
+.error {
+  max-width: 576px;
+  margin: 16px 0 0;
+  color: var(--color-gray-300);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.helperText a {
+  color: var(--color-white);
+  font-weight: 500;
+}
+
+.helperText a:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.error {
+  color: #fca5a5;
+}
+
+@media (max-width: 767px) {
+  .form {
+    max-width: none;
+  }
+
+  .fields {
+    flex-direction: column;
+  }
+
+  .input,
+  .submitButton {
+    width: 100%;
+  }
+
+  .helperText,
+  .error {
+    max-width: none;
+  }
+}
