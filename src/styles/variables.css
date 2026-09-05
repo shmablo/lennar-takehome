@@ -1,0 +1,24 @@
+:root {
+  --color-gray-900: #111827;
+  --color-gray-600: #4b5563;
+  --color-gray-500: #6b7280;
+  --color-gray-300: #d1d5db;
+
+  --color-indigo-600: #4f46e5;
+  --color-indigo-500: #6366f1;
+  --color-indigo-400: #818cf8;
+
+  --color-white: #ffffff;
+  --color-black: #000000;
+
+  --container-max-width: 1280px;
+  --desktop-side-padding: 39px;
+  --mobile-side-padding: 16px;
+
+  --control-height: 48px;
+  --button-radius: 6px;
+  --drawer-radius: 8px;
+
+  --menu-open-duration: 500ms;
+  --menu-close-duration: 300ms;
+}
