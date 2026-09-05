@@ -1,0 +1,36 @@
+.callout {
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+  padding: 4px 8px 4px 4px;
+  border-radius: 14px;
+  background: var(--color-black);
+  color: var(--color-white);
+}
+
+.callout:focus-visible {
+  outline: 3px solid var(--color-indigo-400);
+  outline-offset: 3px;
+}
+
+.badge {
+  padding: 2px 12px;
+  border-radius: 10px;
+  background: var(--color-indigo-500);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+}
+
+.text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.chevron {
+  width: 20px;
+  height: 20px;
+}
