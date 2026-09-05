@@ -1,0 +1,64 @@
+.header {
+  display: flex;
+  width: 100%;
+  height: 66px;
+  padding-top: 24px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 43.75px;
+  height: 40px;
+}
+
+.desktopNavigation {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 48px;
+}
+
+.navigationLinks {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.navigationLink,
+.loginLink {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.navigationLink:hover,
+.loginLink:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.navigationLink:focus-visible,
+.loginLink:focus-visible {
+  outline: 3px solid var(--color-indigo-400);
+  outline-offset: 4px;
+  border-radius: 2px;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+@media (max-width: 767px) {
+  .logo {
+    width: 35px;
+    height: 32px;
+  }
+
+  .desktopNavigation {
+    display: none;
+  }
+}

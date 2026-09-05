@@ -1,10 +1,11 @@
+import Header from "./components/ui/header/Header"
 
 
 function App() {
 
   return (
     <main>
-      Hello
+      <Header />
     </main>
   )
 }
