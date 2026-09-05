@@ -1,16 +1,10 @@
-import Callout from "./components/ui/callout/Callout"
-import Header from "./components/ui/header/Header"
-import SignupForm from "./components/ui/signupForm/SignUpForm"
+import LandingPage from "./pages/LandingPage"
 
 
 function App() {
 
   return (
-    <main>
-      <Header />
-      <Callout />
-      <SignupForm />
-    </main>
+    <LandingPage />
   )
 }
 
