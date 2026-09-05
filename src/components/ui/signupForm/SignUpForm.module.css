@@ -84,3 +84,17 @@
     max-width: none;
   }
 }
+
+.error {
+  margin: 16px 0 0;
+  color: #fca5a5;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.success {
+  margin: 16px 0 0;
+  color: #86efac;
+  font-size: 14px;
+  line-height: 20px;
+}

@@ -1,7 +1,7 @@
 import styles from './Header.module.css';
 import logo from '../../../assets/logo.svg'
 import Button from '../button/Button';
-import { useCallback, useEffect, useState } from 'react';
+import { useState } from 'react';
 import MobileMenu from '../mobileMenu/MobileMenu';
 import hamburgerIcon from '../../../assets/hamburgerIcon.svg'
 
@@ -15,9 +15,9 @@ const navigationLinks = [
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const closeMenu = useCallback(() => {
+  function closeMenu() {
     setIsMenuOpen(false);
-  }, []);
+  }
 
   return (
     <>
